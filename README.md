@@ -2,13 +2,17 @@
 
 This is a collection of python scripts for macroing basic actions in Mortal Online 2.
 
+They can be executed as standalone Python scripts however I recommend using [atbswp](https://github.com/RMPR/atbswp) to run the macros with the ability to toggle them on/off with hotkeys and run indefinitely until you turn it off.
+
 ## Requirements
 
- - Install Python 3
- - Install dependencies via pip:
+  - Install Python 3
+  - Install dependencies via pip:
     ```
       pip install pynput pyautogui
     ```
+  - Clone or download & extract the contents of this repository
+  - Clone or download & extract the contents of [atbswp](https://github.com/RMPR/atbswp) to the folder containing these macros 
 
 ## Usage
 
@@ -20,7 +24,7 @@ This is a collection of python scripts for macroing basic actions in Mortal Onli
  - Enable either "Infinite Playback" or  and configure your preferred playback hotkey
  - Load the macro you want to run in the atbswp GUI
  - Start playback of the macro
- - Focus the MO2 game client window and make sure you are in locked mose mode (press "Z" by default if you can see mouse cursor ingame)
+ - Focus the MO2 game client window and make sure you are in locked mouse mode (press "Z" by default if you can see mouse cursor ingame)
 
 ## Macros
 
