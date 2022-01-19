@@ -1,0 +1,39 @@
+# Mortal Macros
+
+This is a collection of python scripts for macroing basic actions in Mortal Online 2.
+
+## Requirements
+
+ - Install Python 3
+ - Install dependencies via pip:
+    ```
+      pip install pynput pyautogui
+    ```
+
+## Usage
+
+ - Open a command line to the folder you extracted these files to
+ - Run atbswp:
+    ```
+    ./atbswp/atbswp/atbswp.py
+    ```
+ - Enable either "Infinite Playback" or  and configure your preferred playback hotkey
+ - Load the macro you want to run in the atbswp GUI
+ - Start playback of the macro
+ - Focus the MO2 game client window and make sure you are in locked mose mode (press "Z" by default if you can see mouse cursor ingame)
+
+## Macros
+
+### Autowalk
+
+Useful for levelling armor training, combat maneuvering, and footspeed skills.
+
+### Autoattack
+
+Useful for levelling strength, dexterity, melee combat, aggressive stance and endurance skills. Stand in front of a training dummy or a friend you want to stat up before starting. If using it to stat up a friend make sure you enable "thrust as default attack" in the game settings.
+
+### Autocast
+
+Useful for levelling intelligence, psyche, resting and basically all mage skills.
+
+You can configure the hotkeys used for chanelling a spell, self-casting it and resting by changing the variables at the top of the script. By default it will press "9" to channel spell, "E" to self-cast, "0" to rest.

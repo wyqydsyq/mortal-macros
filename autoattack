@@ -1,0 +1,9 @@
+#!/bin/env python3
+# Created by atbswp v0.3.1 (https://git.sr.ht/~rmpr/atbswp)
+# on 19 Jan 2022 
+import pyautogui
+import time
+pyautogui.FAILSAFE = False
+
+pyautogui.leftClick()
+time.sleep(1)
