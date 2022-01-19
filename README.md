@@ -9,7 +9,7 @@ They can be executed as standalone Python scripts however I recommend using [atb
   - Install Python 3
   - Install dependencies via pip:
     ```
-      pip install pynput pyautogui
+      pip install pynput pyautogui wxPython
     ```
   - Clone or download & extract the contents of this repository
   - Clone or download & extract the contents of [atbswp](https://github.com/RMPR/atbswp) to the folder containing these macros 
@@ -21,7 +21,7 @@ They can be executed as standalone Python scripts however I recommend using [atb
     ```
     ./atbswp/atbswp/atbswp.py
     ```
- - Enable either "Infinite Playback" or  and configure your preferred playback hotkey
+ - Enable either "Infinite Playback" or "Set Repeat Count" and configure your preferred playback hotkey
  - Load the macro you want to run in the atbswp GUI
  - Start playback of the macro
  - Focus the MO2 game client window and make sure you are in locked mouse mode (press "Z" by default if you can see mouse cursor ingame)
@@ -34,7 +34,7 @@ Useful for levelling armor training, combat maneuvering, and footspeed skills.
 
 ### Autoattack
 
-Useful for levelling strength, dexterity, melee combat, aggressive stance and endurance skills. Stand in front of a training dummy or a friend you want to stat up before starting. If using it to stat up a friend make sure you enable "thrust as default attack" in the game settings.
+Useful for levelling strength, dexterity, melee combat, aggressive stance and endurance skills. Stand in front of a training dummy or a friend you want to stat up before starting. If using it to stat up a friend make sure you enable "thrust as default attack" in the game settings before starting.
 
 ### Autocast
 
